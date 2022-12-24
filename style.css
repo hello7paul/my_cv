@@ -1,0 +1,40 @@
+.text-style {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-name {
+    font-style: italic;
+}
+/* h1 {
+    font-style: italic;
+} */
+
+.text-position {
+    font-weight: bold;
+}
+/* h3 {
+    font-weight: bold;
+}*/
+
+th {
+    text-transform: uppercase;
+}
+
+.list {
+    list-style-type: square;
+}
+
+.link {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #005;
+    text-decoration: underline;
+}
