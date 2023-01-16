@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Offer a job</h1>
+    <h2>Contact information</h2>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <th align="left">Phone</th>
+            <td align="left">+380992325259</td>
+        </tr>
+        <tr>
+            <th align="left">Address</th>
+            <td align="left">Anywhere in Ukraine</td>
+        </tr>
+    </table>
+    
+    <br/>
+
+    <form action="/html forms.html" method="get">
+        <fieldset>
+            <legend>Contact form</legend>
+
+            <label for="email-input">E-mail*:</label>
+            <input type="email" id="email-input" name="E-mail" required/>
+            <br/>
+            <br/>
+            <label for="description-input">Description:</label>
+            <textarea name="Text description" id="description-input" cols="30" rows="7"></textarea>
+            <br/>
+            <br/>
+            <label>
+                Work time:
+                <select name="work-type" id="work-type">
+                    <option value=""></option>
+                    <option value="Office-work">Office work</option>
+                    <option value="Remote-work">Remote work</option>
+                    <option value="One-time-project">One-time project</option>
+                </select>
+            </label>
+            <br/>
+            <br/>
+            <input type="submit" value="Hire me">
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
